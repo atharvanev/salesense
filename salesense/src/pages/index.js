@@ -1,11 +1,11 @@
 // src/pages/index.js
 import NavBar from "../components/NavBar"; // Adjust the path if necessary
-import TextBox from "@/components/TextBox"; // Make sure the component name is correctly referenced
+import TextBox from "../components/Textbox"; // Make sure the component name is correctly referenced
 import React from 'react';
 
 const Home = () => {
   return (
-    <div> {/* Add padding to the main container */}
+    <div> {/* Add padding to the main container  */}
       <NavBar />
       <div className="mr-4 ml-4">
       <div className="space-y-4 mt-6"> {/* Add margin-top and vertical spacing */}
