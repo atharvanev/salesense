@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const TextBox = ({placeholder}) => {
+const TextBox = ({ placeholder }) => {
   return (
     <div className="mb-4">
       <input
