@@ -12,6 +12,18 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Lexend: ["Lexend", "sans-serif"], // Add the font family
+      },
+      filter: {
+        "blur-background": "blur(10px)",
+      },
+      backgroundImage: {
+        "custom-gradient": `
+          radial-gradient(ellipse at top, #e66465, transparent),
+          radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+        `,
+      },
     },
   },
   plugins: [],

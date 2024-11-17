@@ -5,6 +5,8 @@ const About = () => {
   return (
     <div>
       <NavBar />
+
+      <div className="absolute top-0 -left-4 w-72 bg-purple-300 rounded-full"></div>
       <div className="p-4">
         <h1 className="text-2xl font-bold">About Us</h1>
         <p className="mt-2">

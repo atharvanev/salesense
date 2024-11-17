@@ -6,7 +6,7 @@ const TextBox = ({ placeholder }) => {
       <input
         type="text"
         placeholder={placeholder}
-        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        className="bg-purple-300 rounded-lg w-full py-2 px-3 h-24 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
       />
     </div>
   );

@@ -7,23 +7,22 @@ const NavBar = () => {
   const router = useRouter(); // Get the router object
   const currentPath = router.pathname; // Get the current path
   return (
-    <nav className="bg-green-400 shadow-md w-full px-8">
+    <nav className="w-full mt-5 font-Lexend px-8 mb-12 ">
       <div className="container mx-auto flex items-center justify-between flex-wrap md:flex-nowrap py-4">
         {/* Logo */}
-        <div className="text-white md:order-1 flex items-center">
-          <FaDollarSign size={30} />
-          <h1 className="ml-2 text-2xl font-bold">Sale Sense</h1>
+        <div className="text-black md:order-1 flex items-center">
+          <h1 className="ml-2 text-4xl font-semibold">SaleSense</h1>
         </div>
-        <div className="text-white order-3 w-full md:w-auto md:order-2">
+        <div className="text-black order-3 w-full md:w-auto md:order-2">
           <ul className="flex font-semibold justify-between">
             {/* Home and About Links */}
             <li
-              className={`md:px-4 md:py-2 ${currentPath === "/" ? "bg-black rounded-lg" : "hover:text-white"}`}
+              className={`md:px-4 md:py-2 ${currentPath === "/" ? "text-purple-300 rounded-lg" : "hover:text-black"}`}
             >
               <Link href="/">Home</Link>
             </li>
             <li
-              className={`md:px-4 md:py-2 ${currentPath === "/about" ? "bg-black rounded-lg" : "hover:text-white"}`}
+              className={`md:px-4 md:py-2 ${currentPath === "/about" ? "text-purple-300 rounded-lg" : "hover:text-black"}`}
             >
               <Link href="/about">About</Link>
             </li>

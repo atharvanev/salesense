@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground: #ffffff;
-  --background: #171717;
+  --background: #fcf5e5;
+  --foreground: #171717;
 }
 
 /* @media (prefers-color-scheme: dark) {
