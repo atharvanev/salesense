@@ -6,7 +6,7 @@ const NavBar = () => {
   const currentPath = router.pathname; // Get the current path
 
   return (
-    <nav className="w-full mt-5 font-Lexend px-8 mb-12">
+    <nav className="w-full mt-5 font-Lexend px-8">
       <div className="container mx-auto flex items-center justify-between flex-wrap md:flex-nowrap py-4">
         {/* Logo */}
         <div className="flex items-center text-4xl font-semibold text-black">
