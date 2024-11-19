@@ -25,14 +25,14 @@ const Home = () => {
                 <IoIosCheckmarkCircleOutline className="text-xl" />
                 <div className="pr-2">Constuctive Feedback</div>
               </div>
-              <div className="text-7xl font-Lexend">A data driven tool for</div>
-              <div className="text-7xl font-Lexend">product descriptions.</div>
+              <div className="text-5xl md:text-7xl font-Lexend">A data driven tool for</div>
+              <div className="text-5xl md:text-7xl font-Lexend">product descriptions.</div>
               <div className="text-xl mt-4  pt-4">
                 Solutions that bring engagement and increase conversion for your
                 listings.
               </div>
             </div>
-            <div className="mt-8 text-4xl opacity-20 font-bold shadow-sm ">
+            <div className="mt-8 opacity-20 font-bold shadow-sm text-lg md:text-4xl ">
               Enter Your Product&apos;s description below
             </div>
           </div>
