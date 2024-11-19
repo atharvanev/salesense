@@ -32,7 +32,7 @@ const Home = () => {
                 listings.
               </div>
             </div>
-            <div className="mt-8 text-4xl opacity-20 font-bold shadow-sm ">Enter Your Products description below</div>
+            <div className="mt-8 text-4xl opacity-20 font-bold shadow-sm ">Enter Your Product&apos;s description below</div>
 
           </div>
           
