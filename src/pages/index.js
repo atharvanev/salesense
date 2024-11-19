@@ -27,7 +27,7 @@ const Home = () => {
               </div>
               <div className="text-7xl font-Lexend">A data driven tool for</div>
               <div className="text-7xl font-Lexend">product descriptions.</div>
-              <div className="text-xl m-4 p-4">
+              <div className="text-xl mt-4  pt-4">
                 Solutions that bring engagement and increase conversion for your
                 listings.
               </div>
